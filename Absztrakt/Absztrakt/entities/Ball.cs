@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace Absztrakt.entities
 {
-    class Ball: Label
+    public class Ball: Label
     {
         public Ball()
         {
