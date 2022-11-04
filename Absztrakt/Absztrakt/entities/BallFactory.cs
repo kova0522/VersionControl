@@ -8,7 +8,7 @@ namespace Absztrakt.entities
 {
     public class BallFactory
     {
-        public Toy CreateNew()
+        public Ball CreateNew()
         {
             return new Ball();
         }
