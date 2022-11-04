@@ -45,7 +45,7 @@ namespace Absztrakt
             // mainPanel
             // 
             this.mainPanel.AutoSize = true;
-            this.mainPanel.Location = new System.Drawing.Point(108, 78);
+            this.mainPanel.Location = new System.Drawing.Point(13, 233);
             this.mainPanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(698, 445);
@@ -88,7 +88,7 @@ namespace Absztrakt
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(264, 32);
+            this.label1.Location = new System.Drawing.Point(436, 20);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(101, 20);
@@ -97,7 +97,7 @@ namespace Absztrakt
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(482, 20);
+            this.button3.Location = new System.Drawing.Point(141, 63);
             this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(112, 35);
@@ -107,7 +107,7 @@ namespace Absztrakt
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(800, 20);
+            this.button4.Location = new System.Drawing.Point(261, 18);
             this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(112, 35);
@@ -118,7 +118,7 @@ namespace Absztrakt
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(926, 20);
+            this.button5.Location = new System.Drawing.Point(261, 63);
             this.button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(112, 35);
@@ -129,7 +129,7 @@ namespace Absztrakt
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(1046, 20);
+            this.button6.Location = new System.Drawing.Point(261, 108);
             this.button6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(112, 35);
