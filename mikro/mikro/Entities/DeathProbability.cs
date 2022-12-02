@@ -10,6 +10,6 @@ namespace mikro.Entities
     {
         public int Age { get; set; }
         public Gender Gender { get; set; }
-        public double Probability { get; set; }
+        public double P { get; set; }
     }
 }
