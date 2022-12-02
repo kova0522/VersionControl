@@ -26,8 +26,11 @@ namespace mikro
             Population = GetPopulation(@"C:\Temp\nép.csv");
             BirthProbabilities = GetBirthProbabilities(@"C:\Temp\születés.csv");
             DeathProbabilities = GetDeathProbabilities(@"C:\Temp\halál.csv");
-            dataGridView1.DataSource = Population;
 
+            
+        }
+        private void Simulation()
+        {
             // Végigmegyünk a vizsgált éveken
             for (int year = 2005; year <= 2024; year++)
             {
@@ -145,6 +148,15 @@ namespace mikro
             }
 
             return population;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
+            {
+                textBox1.Text = openFileDialog.FileName;
+            }
+                
         }
     }
 }
